@@ -35,7 +35,7 @@ Application Development using Java
   * The program should implement 2 different versions of `strcmp()`.    
     * 1st version - compares both strings.   
     * 2nd version - compare a specific number of characters from both strings.    
-  Display the results.    
+  * Display the results.    
 
 * Program 6:    
   --   
