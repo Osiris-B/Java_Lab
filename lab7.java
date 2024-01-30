@@ -20,7 +20,7 @@ class SharedBuffer {
         }
     }
 
-    public int consume() throws InterruptedException {
+    public void consume() throws InterruptedException {
         synchronized (this) {
             while (buffer.isEmpty()) {
                 wait();
@@ -30,7 +30,6 @@ class SharedBuffer {
             System.out.println("Consuming item " + item);
 
             notifyAll();
-            return item;
         }
     }
 }

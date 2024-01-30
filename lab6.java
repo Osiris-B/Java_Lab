@@ -49,7 +49,6 @@ class CityBank extends Bank {
 
 class SBIBank extends Bank {
     private double interestRate;
-    private double interestEarned;
 
     public void readDetails() {
         super.readDetails();
@@ -61,12 +60,7 @@ class SBIBank extends Bank {
     @Override
     public void calculateInterest() {
         double interest = balance * interestRate / 100;
-        this.interestEarned = interest;
         System.out.println("Interest earned at SBI Bank: " + interest);
-    }
-
-    public double getInterestEarned() {
-        return interestEarned;
     }
 }
 
