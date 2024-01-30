@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 public class lab1c {
     public static void bbsort_asc(int[] array) {
@@ -36,7 +36,7 @@ public class lab1c {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         int n;
         System.out.println("Enter the length of array to be sorted: ");
         n = sc.nextInt();

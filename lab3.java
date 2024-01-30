@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 class complex {
     int real, img;
@@ -13,7 +13,7 @@ class complex {
         this.img = i;
     }
 
-    public void read(Scanner sc) {
+    public void read(sc sc) {
         System.out.print("Enter the real part: ");
         real = sc.nextInt();
         System.out.print("Enter the imaginary part: ");
@@ -62,7 +62,7 @@ class complex {
 
 public class lab3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
 
         complex c1 = new complex();
         complex c2 = new complex();

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 class Person {
     private String name;
@@ -52,21 +52,21 @@ class Student extends Person {
 
 public class lab4{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        sc sc = new sc(System.in);
 
         // Display details of employees
         System.out.println("Enter details for Employees:");
         for (int i = 1; i <= 5; i++) {
             System.out.println("\nEmployee " + i + " details:");
             System.out.print("Name: ");
-            String empName = scanner.nextLine();
+            String empName = sc.nextLine();
             System.out.print("Age: ");
-            int empAge = scanner.nextInt();
-            scanner.nextLine(); // consume the newline character
+            int empAge = sc.nextInt();
+            sc.nextLine(); // consume the newline character
             System.out.print("Gender (M/F): ");
-            char empGender = scanner.nextLine().charAt(0);
+            char empGender = sc.nextLine().charAt(0);
             System.out.print("Employee ID: ");
-            String empId = scanner.nextLine();
+            String empId = sc.nextLine();
 
             Employee employee = new Employee(empName, empAge, empGender, empId);
             employee.displayDetails();
@@ -77,19 +77,19 @@ public class lab4{
         for (int i = 1; i <= 5; i++) {
             System.out.println("\nStudent " + i + " details:");
             System.out.print("Name: ");
-            String studentName = scanner.nextLine();
+            String studentName = sc.nextLine();
             System.out.print("Age: ");
-            int studentAge = scanner.nextInt();
-            scanner.nextLine(); // consume the newline character
+            int studentAge = sc.nextInt();
+            sc.nextLine(); // consume the newline character
             System.out.print("Gender (M/F): ");
-            char studentGender = scanner.nextLine().charAt(0);
+            char studentGender = sc.nextLine().charAt(0);
             System.out.print("Student ID: ");
-            String studentId = scanner.nextLine();
+            String studentId = sc.nextLine();
 
             Student student = new Student(studentName, studentAge, studentGender, studentId);
             student.displayDetails();
         }
 
-        scanner.close();
+        sc.close();
     }
 }

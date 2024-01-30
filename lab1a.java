@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 public class lab1a {
     public static float calcArea(float l, float b) {
@@ -6,7 +6,7 @@ public class lab1a {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
 
         float length, breadth, area;
 

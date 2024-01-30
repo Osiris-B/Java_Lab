@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 class Bank {
     protected String name;
@@ -7,7 +7,7 @@ class Bank {
     public int year;
 
     public void readDetails() {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         System.out.println("Enter Customer Name:");
         this.name = sc.nextLine();
         System.out.println("Enter Account Number:");
@@ -35,7 +35,7 @@ class CityBank extends Bank {
 
     public void readDetails() {
         super.readDetails();
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         System.out.println("Enter Interest Rate for City Bank:");
         this.interestRate = sc.nextDouble();
     }
@@ -53,7 +53,7 @@ class SBIBank extends Bank {
 
     public void readDetails() {
         super.readDetails();
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         System.out.println("Enter Interest Rate for SBI Bank:");
         this.interestRate = sc.nextDouble();
     }
@@ -75,7 +75,7 @@ class CanaraBank extends Bank {
 
     public void readDetails() {
         super.readDetails();
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         System.out.println("Enter Interest Rate for Canara Bank:");
         this.interestRate = sc.nextDouble();
     }
@@ -89,7 +89,7 @@ class CanaraBank extends Bank {
 
 public class lab6 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
 
         CityBank[] cityBanks = new CityBank[3];
         SBIBank[] sbiBanks = new SBIBank[3];

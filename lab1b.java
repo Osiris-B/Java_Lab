@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 public class lab1b {
     public static int[] mulArray(int[] a, int[] b) {
@@ -12,7 +12,7 @@ public class lab1b {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
 
         int n;
         System.out.println("Enter the lengths of arrays to be multiplied: ");

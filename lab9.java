@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.sc;
 
 interface compute {
     public void convert();
@@ -34,7 +34,7 @@ class curr implements compute {
 
 public class lab9 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        sc sc = new sc(System.in);
         float kb, euro;
 
         System.out.println("enter the data in Kb: ");
