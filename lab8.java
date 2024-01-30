@@ -1,8 +1,8 @@
-import java.util.sc;
+import java.util.Scanner;
 
 public class lab8 {
     public static void main(String[] args) {
-        sc sc = new sc(System.in);
+        Scanner sc = new Scanner(System.in);
 
         try {
             System.out.print("Enter the numerator: ");

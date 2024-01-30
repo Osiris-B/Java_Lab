@@ -1,4 +1,4 @@
-import java.util.sc;
+import java.util.Scanner;
 
 public class lab5 {
     public static boolean compareStrings(String str1, String str2) {
@@ -18,7 +18,7 @@ public class lab5 {
     }
 
     public static void main(String[] args) {
-        sc sc = new sc(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the first string:");
         String str1 = sc.nextLine();

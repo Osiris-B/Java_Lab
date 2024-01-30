@@ -1,4 +1,4 @@
-import java.util.sc;
+import java.util.Scanner;
 
 class employee {
 
@@ -30,7 +30,7 @@ class employee {
 
 public class lab2 {
     public static void main(String[] args) {
-        sc sc = new sc(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of employees");
         int n = sc.nextInt();
         employee[] obj = new employee[n];

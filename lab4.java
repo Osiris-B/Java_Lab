@@ -1,4 +1,4 @@
-import java.util.sc;
+import java.util.Scanner;
 
 class Person {
     private String name;
@@ -52,7 +52,7 @@ class Student extends Person {
 
 public class lab4{
     public static void main(String[] args) {
-        sc sc = new sc(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Display details of employees
         System.out.println("Enter details for Employees:");
